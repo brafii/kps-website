@@ -1,0 +1,319 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.bg-body-color{
+    background-color: #c28e38;
+}
+.bg-body-color ul li a{
+    color: #fff;
+}
+.bg-body-color ul li a:hover{
+    color: #fff;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.item-info{
+    color: #fff;
+    font-size: 13px;
+}
+.item-info:hover{
+    color: #002120;
+}
+.nav-bar-content{
+    padding: 30px;
+}
+.nav-bar-content li a{
+    color: #000;
+    margin-left: 30px;
+}
+.nav-bar-content li a:hover{
+    color: #c28e38;
+}
+.kps-header{
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    color: #c28e38;
+}
+input[type=text], input[type=email]{
+    border-radius: 0;
+    padding: 10px;
+}
+::placeholder{
+    font-size: 14px;
+    color: #848484 !important;
+}
+
+
+/* Home */
+.info-home{
+    background-color: rgb(244, 244, 244);
+    padding: 20px;
+}
+.info-two-home h2{
+    color: #002120;
+}
+.home-properties h2{
+    color: #002120;
+}
+.home-card{
+    border: 0;
+    background-color: transparent;
+}
+.card-body-color p{
+    color: #002120;;
+    text-transform: uppercase;
+}
+.card-text-loc{
+    color: #000;
+}
+.home-wallpaper{
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.36);
+    padding: 50px;
+    min-height: 280px;
+    background-image: url(../images/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.home-wallpaper h2{
+    color: #c28e38;
+}
+.home-wallpaper p{
+    color: #fff;
+}
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.home-contact-icons{
+    font-size: 30px;
+    border: 2px solid #c28e38;
+    border-radius: 5px;
+    padding: 18px;
+    color: #c28e38;
+}
+.team{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.blacksmall{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* About us */
+.about-banner-text{
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.36);
+    padding: 50px;
+    min-height: 280px;
+    background-image: url(../images/about-wallper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spacearound{
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.our-vision, .our-goal{
+    background-color: #f2f2f2;
+}
+.our-mission p{
+    color: #fff;
+}
+.about-us h2{
+    color: #002120;
+}
+.our-vision h2{
+    color: #002120;
+}
+.our-goal h2{
+    color: #002120;
+}
+
+/* Services */
+.services-banner-text{
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.36);
+    padding: 50px;
+    min-height: 280px;
+    background-image: url(../images/services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.event-img img{
+    border-radius: 10px;
+}
+
+/* Career */
+.career-banner-text{
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.36);
+    padding: 50px;
+    min-height: 280px;
+    background-image: url(../images/career-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.career-content h2{
+    color: #002120;
+}
+.next-content{
+    background-color: #F9F9F9;
+    color: #000;
+}
+.next-content p{
+    line-height: 36px;
+}
+.next-content a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.careereboxtext {
+    font-size: 14px;
+    color: #848484;
+}
+.career-form{
+    width: 80%;
+}
+.career-btn{
+    width: 100%;
+    border-radius: 0;
+    padding: 10px;
+    background-color: #c28e38;
+    border-color: #c28e38;
+}
+.career-btn:hover{
+    background-color:#002120;
+    border-color: #002120;
+}
+#kps-bg{
+    background-color:#002120;
+    color: #fff;
+}
+#kps-bg-second{
+    background-color:#002120;
+    color: #fff;
+}
+#kps-bg-second a{
+    text-decoration: none;
+    color: #fff;
+}
+.upcoming-career{
+    background-color: rgb(244, 244, 244);
+}
+/* Contact */
+.banner{
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.36);
+    padding: 50px;
+    min-height: 280px;
+    background-image: url(../images/contact-wallper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.banner-text{
+    color: #fff;
+}
+.contact-icons{
+    font-size: 60px;
+    color: #c28e38;
+}
+.contacts h6{
+    font-weight: 700;
+    color: #002120;
+}
+.contact-card-body p{
+    font-size: 14px;
+}
+.contact-card{
+    border: 0;
+}
+.contacts{
+    color: #002120;
+}
+.contacts h2{
+    color: #002120;
+}
+.form-content{
+    background-color: rgb(244, 244, 244);
+}
+.msg-btn{
+    background-color: #c28e38;
+    border-color: #c28e38;
+}
+.msg-btn:hover{
+    background-color: #c28e38;
+    border-color: #c28e38;
+}
+.contact-header h2{
+    color: #c28e38;
+}
+
+/* Footer */
+.footer{
+    background-color: #002120;
+    color: #fff;
+    font-size: 14px;
+}
+.footer h6{
+    color: #fff;
+}
+.footer-icon{
+    font-size: 21px;
+    color: #c28e38;
+}
+.calls p{
+    line-height: 1.8em;
+}
+.newline{
+    border-top: 1px solid #f2f2f2;
+}
+/*
+.footer ul a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.8em;
+}*/
+.footer ul li{
+    list-style: none;
+    line-height: 2em;
+    font-size: 15px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.footer ul li a:hover{
+    color: #c28e38;
+    transition: 1s;
+}
+.foot-two{
+    background-color: #002120;
+    color: #fff;
+    font-size: 14px;
+}
+
+/*Media Query*/
