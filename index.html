@@ -59,30 +59,32 @@
     <!---end navbar--->
 
     <!---- image slider ---->
-    <div id="hero-carousel" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active c-item">
-          <img src="images/slide_one.jpg" class="d-block w-100 c-img">
-          <div class="carousel-caption top-0 mt-5 d-none d-md-block">
-            <h1 class="mt-5 fw-bolder">We will help you find<br> your <span style="color:#c28e38;">Dream</span> home</h1>
+          <img src="images/slide_one.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+            <h1 class="fw-bolder">We will help you find</h1>
+            <h1 class="fw-bolder">your <span style="color:#c28e38;">Dream</span> home</h1>
           </div>
         </div>
         <div class="carousel-item c-item">
-          <img src="images/slide_two.jpg" class="d-block w-100 c-img">
-          <div class="carousel-caption top-0 mt-5 d-none d-md-block">
-            <h1 class="mt-5 fw-bolder">Find the perfect <br><span style="color:#c28e38;">Building Product</span> for you</h1>
+          <img src="images/slide_two.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+            <h1 class="fw-bolder">Find the perfect</h1>
+            <h1 class="fw-bolder"><span style="color:#c28e38;">Building Product</span> for you</h1>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -95,7 +97,7 @@
 
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
-            <h1 class="mb-5 text-center kps-header">Welcome to K.P.S</h1>
+            <h1 class="mb-4 text-center kps-header">Welcome to K.P.S</h1>
             <p class="text-center">Welcome to Kraks Property Solutions, where we build the finest structures one block at a time. <br>
               Kraks construction and Asset management is committed in making your project efficient and as easy as possible for you. <br>To that end, we have added Blocks Manufacturing and Hauling services to our operations.</p>
           </div>
@@ -169,40 +171,26 @@
 
       <div class="container">
 
-        <div class="row g-4">
+        <h1 class="mb-5 text-center kps-header">Current Project</h1>
 
-          <h1 class="mb-5 text-center kps-header">Current Project</h1>
-          
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="card shadow border-0" style="width: 25rem;">
-              <img src="images/construction.jpg" class="card-img-top img-fluid">
-              <div class="card-body card-body-color">
-                <p class="card-text text-center">Construction</p>
-              </div>
-            </div>
-          </div>
+        <div class="row g-4 event-img">
 
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="card shadow border-0" style="width: 25rem;">
-              <img src="images/asset.jpg" class="card-img-top img-fluid">
-              <div class="card-body card-body-color">
-                <p class="card-text text-center">Property Management</p>
-              </div>
+            <div class="col-md-4">
+                <a href="construction.html"><img src="images/construction.jpg" class="img-fluid"></a>
+                <h4 class="mt-4">Construction</h4>
             </div>
-          </div>
 
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="card shadow border-0" style="width: 25rem;">
-              <img src="images/builiding_materials.jpg" class="card-img-top img-fluid">
-              <div class="card-body card-body-color">
-                <p class="card-text text-center">Materials</p>
-              </div>
+            <div class="col-md-4">
+                <a href="property.html"><img src="images/asset.jpg" class="img-fluid"></a>
+                <h4 class="mt-4">Property Management</h4>
             </div>
-          </div>
+
+            <div class="col-md-4">
+                <a href="materials.html"><img src="images/builiding_materials.jpg" class="img-fluid"></a>
+                <h4 class="mt-4">Materials</h4>
+            </div>
 
         </div>
-
-
       </div>
 
     </div>

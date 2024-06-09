@@ -1,5 +1,6 @@
 body{
     font-family: "Montserrat", sans-serif;
+    font-size: 15px;
 }
 .bg-body-color{
     background-color: #c28e38;
@@ -15,7 +16,6 @@ body{
 }
 .item-info{
     color: #fff;
-    font-size: 13px;
 }
 .item-info:hover{
     color: #002120;
@@ -32,8 +32,8 @@ body{
 }
 .kps-header{
     font-weight: 800;
-    font-size: 40px;
-    letter-spacing: -0.02em;
+    font-size: 36px;
+    letter-spacing: -0.01em;
     color: #c28e38;
 }
 input[type=text], input[type=email]{
@@ -83,14 +83,6 @@ input[type=text], input[type=email]{
 }
 .home-wallpaper p{
     color: #fff;
-}
-.c-item{
-    height: 480px;
-}
-.c-img{
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.6);
 }
 .home-contact-icons{
     font-size: 30px;
@@ -317,3 +309,10 @@ input[type=text], input[type=email]{
 }
 
 /*Media Query*/
+@media screen and (orientation: landscape) {
+    .carousel img {
+      height: 100vh;
+      object-fit: cover;
+      filter: brightness(0.6);
+    }
+}
