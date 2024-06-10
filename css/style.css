@@ -333,6 +333,19 @@ input[type=text], input[type=email]{
     .career-form{
         width: 100%;
     }
+
+    .info-font{
+        text-align: justify;
+    }
+
+    .career-text{
+        text-align: justify;
+    }
+
+    .spacearound{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     
 }
 
@@ -351,6 +364,20 @@ input[type=text], input[type=email]{
 
     .career-form{
         width: 100%;
+    }
+
+    .info-font{
+        text-align: justify;
+    }
+
+    .career-text{
+        text-align: justify;
+    }
+
+
+    .spacearound{
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     
 }
@@ -371,4 +398,18 @@ input[type=text], input[type=email]{
     .career-form{
         width: 100%;
     }
+
+    .info-font{
+        text-align: justify;
+    }
+
+    .career-text{
+        text-align: justify;
+    }
+
+    .spacearound{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
 }
