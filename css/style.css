@@ -353,6 +353,10 @@ input[type=text], input[type=email]{
         text-align: justify;
     }
 
+    .c-item h1{
+        font-size: 13px;
+    }
+
     .career-text{
         text-align: justify;
     }
@@ -382,6 +386,10 @@ input[type=text], input[type=email]{
 
     .item-info{
         color: #fff;
+        font-size: 13px;
+    }
+
+    .c-item h1{
         font-size: 13px;
     }
 
@@ -423,6 +431,10 @@ input[type=text], input[type=email]{
 
     .item-info{
         color: #fff;
+        font-size: 13px;
+    }
+
+    .c-item h1{
         font-size: 13px;
     }
 
