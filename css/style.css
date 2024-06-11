@@ -340,6 +340,11 @@ input[type=text], input[type=email]{
         color: #c28e38;
     }
 
+    .item-info{
+        color: #fff;
+        font-size: 13px;
+    }
+
     .career-form{
         width: 100%;
     }
@@ -373,6 +378,11 @@ input[type=text], input[type=email]{
         font-size: 25px;
         letter-spacing: -0.01em;
         color: #c28e38;
+    }
+
+    .item-info{
+        color: #fff;
+        font-size: 13px;
     }
 
     .career-form{
@@ -409,6 +419,11 @@ input[type=text], input[type=email]{
         font-size: 25px;
         letter-spacing: -0.01em;
         color: #c28e38;
+    }
+
+    .item-info{
+        color: #fff;
+        font-size: 13px;
     }
 
     .career-form{
