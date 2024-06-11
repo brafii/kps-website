@@ -35,6 +35,12 @@ body{
     font-weight: 800;
     font-size: 36px;
     letter-spacing: -0.01em;
+    color: #023020;
+}
+.kpss-header{
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: -0.01em;
     color: #c28e38;
 }
 input[type=text], input[type=email]{
@@ -197,15 +203,15 @@ input[type=text], input[type=email]{
     border-color: #c28e38;
 }
 .career-btn:hover{
-    background-color:#002120;
-    border-color: #002120;
+    background-color:#023020;
+    border-color: #023020;
 }
 #kps-bg{
-    background-color:#002120;
+    background-color:#023020;
     color: #fff;
 }
 #kps-bg-second{
-    background-color:#002120;
+    background-color:#023020;
     color: #fff;
 }
 #kps-bg-second a{
@@ -235,7 +241,7 @@ input[type=text], input[type=email]{
 }
 .contacts h6{
     font-weight: 700;
-    color: #002120;
+    color: #023020;
 }
 .contact-card-body p{
     font-size: 14px;
@@ -244,10 +250,10 @@ input[type=text], input[type=email]{
     border: 0;
 }
 .contacts{
-    color: #002120;
+    color: #023020;
 }
 .contacts h2{
-    color: #002120;
+    color: #023020;
 }
 .form-content{
     background-color: rgb(244, 244, 244);
@@ -318,13 +324,16 @@ input[type=text], input[type=email]{
     }
 }
 
-@media (max-width: 1024px) {   
- /*
-    body{
-        background-color: black;
-    }*/
+@media (max-width: 1024px) {
 
     .kps-header{
+        font-weight: 800;
+        font-size: 25px;
+        letter-spacing: -0.01em;
+        color: #023020;
+    }
+
+    .kpss-header{
         font-weight: 800;
         font-size: 25px;
         letter-spacing: -0.01em;
@@ -350,13 +359,16 @@ input[type=text], input[type=email]{
     
 }
 
-@media (max-width: 768px) {   
-    /*
-    body{
-        background-color: green;
-    }*/
+@media (max-width: 768px) {
 
     .kps-header{
+        font-weight: 800;
+        font-size: 25px;
+        letter-spacing: -0.01em;
+        color: #023020;
+    }
+
+    .kpss-header{
         font-weight: 800;
         font-size: 25px;
         letter-spacing: -0.01em;
@@ -383,13 +395,16 @@ input[type=text], input[type=email]{
     
 }
 
-@media (max-width: 640px) {   
-    /*
-    body{
-        background-color: yellow;
-    }*/
+@media (max-width: 640px) {
 
     .kps-header{
+        font-weight: 800;
+        font-size: 25px;
+        letter-spacing: -0.01em;
+        color: #023020;
+    }
+
+    .kpss-header{
         font-weight: 800;
         font-size: 25px;
         letter-spacing: -0.01em;
