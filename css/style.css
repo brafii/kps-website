@@ -3,7 +3,8 @@ body{
     font-size: 15px;
 }
 .bg-body-color{
-    background-color: #c28e38;
+    /*background-color: #c28e38;*/
+    background-color: #023020;
 }
 .bg-body-color ul li a{
     color: #fff;
@@ -18,7 +19,7 @@ body{
     color: #fff;
 }
 .item-info:hover{
-    color: #002120;
+    color: #fff;
 }
 .nav-bar-content{
     padding: 30px;
@@ -265,7 +266,7 @@ input[type=text], input[type=email]{
 
 /* Footer */
 .footer{
-    background-color: #002120;
+    background-color: #023020;
     color: #fff;
     font-size: 14px;
 }
@@ -303,7 +304,7 @@ input[type=text], input[type=email]{
     transition: 1s;
 }
 .foot-two{
-    background-color: #002120;
+    background-color: #023020;
     color: #fff;
     font-size: 14px;
 }
