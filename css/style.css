@@ -382,6 +382,10 @@ input[type=text], input[type=email]{
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    .info-newss{
+        margin-left: 5px;
+    }
     
     
 }
@@ -429,7 +433,7 @@ input[type=text], input[type=email]{
     }
 
     .info-newss{
-        margin-left: 20px;
+        margin-left: 5px;
     }
     
 }
@@ -456,7 +460,7 @@ input[type=text], input[type=email]{
     }
 
     .c-item h1{
-        font-size: 20px;
+        font-size: 5px;
     }
 
     .career-form{
