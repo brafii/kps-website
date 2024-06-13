@@ -383,6 +383,7 @@ input[type=text], input[type=email]{
         padding-bottom: 50px;
     }
     
+    
 }
 
 @media (max-width: 768px) {
@@ -422,10 +423,13 @@ input[type=text], input[type=email]{
         text-align: justify;
     }
 
-
     .spacearound{
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .info-newss{
+        margin-left: 40px;
     }
     
 }
@@ -470,6 +474,10 @@ input[type=text], input[type=email]{
     .spacearound{
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .info-newss{
+        margin-left: 40px;
     }
 
 }
