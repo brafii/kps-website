@@ -384,7 +384,7 @@ input[type=text], input[type=email]{
     }
 
     .info-newss{
-        margin-left: 5px;
+        margin-left: -5px;
     }
     
     
@@ -433,7 +433,7 @@ input[type=text], input[type=email]{
     }
 
     .info-newss{
-        margin-left: 5px;
+        margin-left: -5px;
     }
     
 }
@@ -481,7 +481,7 @@ input[type=text], input[type=email]{
     }
 
     .info-newss{
-        margin-left: 20px;
+        margin-left: -5px;
     }
 
 }
