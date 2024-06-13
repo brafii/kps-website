@@ -276,6 +276,17 @@ input[type=text], input[type=email]{
     color: #c28e38;
 }
 
+/* Downloads */
+
+.downloads a{
+    text-decoration: none;
+    color: #000;
+}
+#pdf{
+    margin-top: -5px;
+}
+
+
 /* Footer */
 .footer{
     background-color: #023020;
